@@ -8,7 +8,6 @@ import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { useNavigate } from "react-router-dom";
 import { getAllWishList } from "../../services/dataservice";
-import { UserLogin } from "../../services/userservice";
 
 const style = {
     position: 'absolute',

@@ -8,6 +8,7 @@ import Pagination from '@mui/material/Pagination';
 
 export const HomePage = (props) => {
 
+    const[book,setbook]=React.useState([])
     const [booksArray,setBooksArray] = React.useState([])
     const[page,setPage] = React.useState(1)
     const[postPage,setPostPage] = React.useState(8)
@@ -25,7 +26,9 @@ export const HomePage = (props) => {
         })
     }
 
-    
+    const sortBooks = (event) => {
+        props.showSortedBooks(event.target.value);
+    }
 
     React.useEffect(() =>{
         GetBook()
@@ -45,7 +48,7 @@ export const HomePage = (props) => {
                     <select style={{width: '106%', height:'28px',marginTop:'-1%',marginLeft:"-3%"}}>
                         <option>Sort by relevance</option>
                         {sortOptions.map((book)=>(
-                             <option key={book.bookprice}>Price(Rs.500-1000)</option>
+                             <option key={book.bookprice} onClick={sortBooks}>Price(Rs.500-1000)</option>
                             
                         ))}
                     </select>

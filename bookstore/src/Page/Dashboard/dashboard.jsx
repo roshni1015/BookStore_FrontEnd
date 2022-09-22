@@ -11,7 +11,7 @@ export const DashBoard = () => {
     const [Book, setBook] = React.useState({})
     const [view, setView] = React.useState(false)
     const[searchBook,setSearchBook] = React.useState('')
-    const [sortType, setSortType] = React.useState('');
+    const [sortType, setSortType] = React.useState([]);
 
 
     const openBook = (book) => {
@@ -20,7 +20,10 @@ export const DashBoard = () => {
         setView(true);
     }
     
-    
+    const showSortedBooks = (number) =>{
+        setSortType(number)
+    }
+ 
     const showSearchedBooks = (string) =>{
         setSearchBook(string)
     }
@@ -29,7 +32,7 @@ export const DashBoard = () => {
     return (<div className="wholeDashboardPage">
         <Header showSearchedBooks = {showSearchedBooks} />
         <div className="pageHome">
-            { view? <SelectedBook book ={Book}/>:<HomePage searchBook ={searchBook}  openBook={openBook}/>}
+            { view? <SelectedBook book ={Book}/>:<HomePage showSortedBooks ={showSortedBooks}  searchBook ={searchBook}  openBook={openBook}/>}
            
         </div>
         
