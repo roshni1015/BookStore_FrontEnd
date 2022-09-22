@@ -1,0 +1,85 @@
+.header{
+    height: 8%;
+    width: 100%;
+    border: 1px solid black;
+    background: #A03037 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+}
+.headerContent{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.halfHeaderContent{
+    height: 80%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.bookimage{
+    height: 40%;
+    width: 4%;
+}
+.bookstore{
+    color: aliceblue;
+    margin-left: -22%;
+}
+.headerSearch{
+    height: 70%;
+    width: 60%;
+    background-color: white;
+    border: 5px;
+    margin: 1%;
+    margin-left: -5%;
+}
+.Search{
+    height: 100%;
+    width: 100%;
+    margin-left: 2%;
+}
+.headercontent2{
+    height: 80%;
+    width: 8%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.accountcart{
+    color: aliceblue;
+    margin: -100%;
+}
+.profile{
+    color: aliceblue;
+    margin-left: 75%;
+
+
+
+}
+button{
+    color: #A03037;
+    background-color: white;
+    border-color: #A03037 ;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .image{
+        margin-left: -19%;
+        margin-right: 19%;
+        height:14px;
+        width: 18px;
+    }
+    .accountcart{
+        margin-left: 75%;
+    }
+    .headercontent2{
+        margin-left: 12%;
+    }
+}

@@ -1,0 +1,14 @@
+.wholeDashboardPage{
+    min-height: 99.8vh;
+    width: 99.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageHome{
+    height: 86%;
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
