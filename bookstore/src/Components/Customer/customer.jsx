@@ -142,15 +142,15 @@ export const Customer = (props) => {
                 <div className="type">Type</div>
                 <div onChange={takeType} className="labels">
                     <div className="label1">
-                        <input type="checkbox" id="Home" />
+                        <input type="radio" id="Home" name="place"/>
                         <label for="Home">Home</label><br />
                     </div>
                     <div className="label1">
-                        <input type="checkbox" id="Work" />
+                        <input type="radio" id="Work" name="place" />
                         <label for="Work">Work</label><br />
                     </div>
                     <div className="label1">
-                        <input type="checkbox" id="Others" />
+                        <input type="radio" id="Others" name="place" />
                         <label for="Others">Others</label><br />
                     </div>
                 </div>

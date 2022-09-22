@@ -11,9 +11,9 @@ export const GetAllBooks = () =>{
     let response = axios.get('http://localhost:4000/api/v1/books',configObj)
     return response;
 }
-export const getBooks = (_id) =>{
+export const getBooks = () =>{
   console.log(configObj);
-  let response = axios.get(`http://localhost:4000/api/v1/books/${_id}`,configObj)
+  let response = axios.get(`http://localhost:4000/api/v1/books`,configObj)
   return response;
 }
 
