@@ -1,0 +1,94 @@
+.ProfileHeader{
+    padding-right: 72%;
+    padding-top: 2%;
+}
+.heading{
+    padding-right: 64%;
+    padding-top: 1%;
+    font-weight: 600;
+    font-size: large;
+
+}
+.PersonalDetails{
+    width: 75%;
+    padding-top: 2%;
+    padding-right: 40%;
+    padding-bottom: 1%;
+    flex-direction: column;
+}
+.Profile{
+    width: 67.5%;
+}
+
+.Profilecustome1{
+    padding-right: 64%;
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: large;
+
+}
+.ProfileAddress{
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 12.5%;
+
+}
+.address{
+    width: 57%;
+}
+.Work{
+    padding-right: 70%;
+    padding-top: 2%;
+    font-weight: 600;
+    font-size: large;
+
+
+}
+.ProfileCity{
+    width: 53.5%;
+    padding-left: 10.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.city{
+    width: 45.5%;
+}
+.Profiletype{
+    padding-left: 12.5%;
+    height: 7%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.Input{
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding-bottom: 7%;
+    justify-content: space-evenly;
+}
+.Profilecustome2{
+    height: 95%;
+    width: 12%;
+    margin-top: -2%;
+    margin-left: 50%;
+    border: 2px solid orangered;
+    font-size: small;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orangered;
+}
+
+
+   
+
