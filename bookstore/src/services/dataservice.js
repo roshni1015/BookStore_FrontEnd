@@ -11,11 +11,6 @@ export const GetAllBooks = () =>{
     let response = axios.get('http://localhost:4000/api/v1/books',configObj)
     return response;
 }
-export const getBooks = () =>{
-  console.log(configObj);
-  let response = axios.get(`http://localhost:4000/api/v1/books`,configObj)
-  return response;
-}
 
 export const addCartItem = (_id) =>{
   console.log(configObj);
